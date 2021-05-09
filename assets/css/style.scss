@@ -45,3 +45,13 @@ a {
     flex-direction: row;
     margin-top: 60px;
 }
+
+p, ul, ol, table, pre, dl {
+    margin: 0 0 20px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
