@@ -1,6 +1,3 @@
 # Roadmap
 
-Q2 2021 | Q3 2021 | Q4 2021 | Q1 2022
-------- | ------- | ------- | ------- 
-✅ Test | ✅ Test | ✅ Test | ✅ Test
-⭕ Test | ⭕ Test | ⭕ Test | ⭕ Test
+<p class="test">Test</p>
