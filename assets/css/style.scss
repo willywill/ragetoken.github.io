@@ -37,3 +37,11 @@ a {
     color: #d14;
     text-decoration: none;
 }
+
+.roadmapContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 60px;
+}
