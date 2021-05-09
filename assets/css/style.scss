@@ -11,3 +11,11 @@
     flex-direction: column;
     align-items: center;
 }
+
+header {
+    width: 1200px;
+    float: none;
+    position: initial;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+}
