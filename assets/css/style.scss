@@ -46,6 +46,12 @@ a {
     margin-top: 60px;
 }
 
+@media screen and (max-width: 720px) {
+    .roadmapContainer {
+    flex-direction: column;
+    }
+}
+
 p, ul, ol, table, pre, dl {
     margin: 0 0 20px;
     list-style: none;
@@ -55,3 +61,4 @@ p, ul, ol, table, pre, dl {
 li {
     margin-bottom: 20px;
 }
+
