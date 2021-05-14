@@ -3,7 +3,7 @@
     <div class="roadmapElement">
       <h2>Q2 2021</h2>
       <ul>
-        <li>🗒️ Roadmap Release</li>
+        <li>🗒️ <s>Roadmap Release</s></li>
         <li>🖥️ Website Launch</li>
         <li>🎁 Token Giveaway</li>
         <li>📱 Social Media Channels</li>
