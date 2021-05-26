@@ -26,9 +26,20 @@
         <div class="buttons">
           <a class="btn" id="btn1" href="https://bscscan.com/address/0x82B085f724B9A822320c84233291b62C13DD0712">Contract</a>
           <a class="btn" id="btn2" href="https://t.me/RageTokenTalk">Telegram</a>
-          <a class="btn" id="btn3" href="#" onclick="addToken()">Add Token To Metamask</a></div>
+          <a class="btn" id="btn3" href="#" onclick="addToken()">Add To MetaMask</a>
+        </div>
+        <div id="metamask-info-container" class="metamask hidden">
+          <p class="metamask-warning">
+            <strong>NOTE:</strong> When adding this token to MetaMask, be sure to select the Smart Chain network. 
+            If it's not already configured, you can use 
+            <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain">
+              this guide 
+            </a>
+            to get setup!
+          </p>
+        </div>
           {% comment %}<a class="btn" id="btn3" href=""></a>{% endcomment %}
-        
+          
         
       </header>
       <section>
@@ -42,7 +53,15 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   
     <script type="text/javascript">
+    function showWarning() {
+      const metaMaskWarningElement = document.getElementById('metamask-info-container');
+      metaMaskWarningElement.classList.remove('hidden');
+    }
+
     async function addToken() {
+      // Display a notification to the user about how to properly configure the token.
+      showWarning();
+
       const tokenAddress = '0x82B085f724B9A822320c84233291b62C13DD0712';
       const tokenSymbol = 'FUU';
       const tokenDecimals = 18;
